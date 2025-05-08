@@ -74,3 +74,5 @@ You turn the knob, and the LEDs respond. Smooth. Controlled. This isn’t guessw
 
 ## 🎬 Final Result
 One dial. Three LEDs. Infinite brightness levels.
+
+![Final](Final_Result.gif)
