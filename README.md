@@ -59,3 +59,10 @@ void loop() {
 
   delay(10); // Smooth response
 }
+```
+
+## 🧠 The Concept
+You turn the knob, and the LEDs respond. Smooth. Controlled. This isn’t guesswork—it’s analog input driving precise PWM signals. The logic is simple. The effect is powerful.
+
+## 🎬 Final Result
+One dial. Three LEDs. Infinite brightness levels.
