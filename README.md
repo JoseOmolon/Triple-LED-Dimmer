@@ -31,7 +31,7 @@ Control is the name of the game. You’re not guessing—you’re sensing. Poten
 
 ## 🛠️ Wiring
 
-![Wiring](GIF/Wiring.gif)
+![Wiring](Wiring.gif)
 
 ---
 
