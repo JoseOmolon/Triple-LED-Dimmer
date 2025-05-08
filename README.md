@@ -39,25 +39,33 @@ Control is the name of the game. You’re not guessing—you’re sensing. Poten
 
 ```cpp
 int sensorPin = A0;
-int redLED = 9;
-int greenLED = 10;
-int blueLED = 11;
+int ledPins[] = {9, 10, 11};
+int sensorValue = 0;
+int brightness = 0;
 
 void setup() {
-  pinMode(redLED, OUTPUT);
-  pinMode(greenLED, OUTPUT);
-  pinMode(blueLED, OUTPUT);
+  for (int i = 0; i < 3; i++) {
+  pinMode(ledPins[i], OUTPUT);
+}
+  Serial.begin(9600);
+
 }
 
 void loop() {
-  int sensorValue = analogRead(sensorPin);
-  int brightness = map(sensorValue, 0, 1023, 0, 255);
+  sensorValue = analogRead(sensorPin);
+  brightness = map(sensorValue, 0, 1023, 0, 255);
 
-  analogWrite(redLED, brightness);
-  analogWrite(greenLED, brightness);
-  analogWrite(blueLED, brightness);
+  analogWrite(ledPins[0], brightness);  // First LED
+  analogWrite(ledPins[1], brightness);
+  analogWrite(ledPins[2], brightness);
 
-  delay(10); // Smooth response
+  Serial.print("Sensor: ");
+  Serial.print(sensorValue);
+  Serial.print(" Brightness: ");
+  Serial.println(brightness);
+
+  delay(100);
+
 }
 ```
 
