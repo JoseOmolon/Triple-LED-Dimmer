@@ -20,13 +20,7 @@ Control is the name of the game. You’re not guessing—you’re sensing. Poten
 
 ## 🔩 Parts I Used
 
-- Arduino Uno  
-- Breadboard  
-- 3x LEDs (Red, Green, Blue)  
-- 3x 220Ω resistors  
-- 1x 10k potentiometer  
-- Jumper wires  
-
+![Components](Components.jpg)
 ---
 
 ## 📈 Schematic
