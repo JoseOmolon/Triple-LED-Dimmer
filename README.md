@@ -5,7 +5,7 @@
 
 ---
 
-## 🧭 Why This Matters 123
+## 🧭 Why This Matters 12
 
 Control is the name of the game. You’re not guessing—you’re sensing. Potentiometers simulate real-world input devices like volume knobs, dimmers, and control dials. This is the gateway to full analog/digital interfacing.
 
