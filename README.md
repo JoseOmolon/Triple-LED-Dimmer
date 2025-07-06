@@ -1,4 +1,4 @@
-# Triple-LED-Dimmer 1234
+# Triple-LED-Dimmer 123
 ## Analog Input. PWM Output. Full Control.
 
 **Fourth step** in the embedded grind. This isn’t just about lighting up LEDs—it’s about using analog input to shape digital output. **3 LEDs. 1 potentiometer. Real-time brightness control.** Precision through code.
