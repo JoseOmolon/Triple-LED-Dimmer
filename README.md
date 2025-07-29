@@ -30,7 +30,7 @@ Control is the name of the game. You’re not guessing—you’re sensing. Poten
 ---
 
 ## 🛠️ Wiring
-con
+co
 ![Wiring](Wiring.gif)
 
 ---
